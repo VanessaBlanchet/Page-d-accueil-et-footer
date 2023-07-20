@@ -14,4 +14,30 @@ let messagePerso = messageBienvenue + monPrenom
 console.log(messageBienvenue)
 
 
-// Prochain cours : "https://openclassrooms.com/fr/courses/7696886-apprenez-a-programmer-avec-javascript/8204834-structurez-des-donnees-grace-aux-objets"
+// let moi ={
+//     nom: "Blanchet",
+//     prenom: "Vanessa",
+//     age: 39,
+//     couleurPreferee: "rouge", 
+//     metier: "Développeuse Web"
+// }
+
+
+
+
+// console.log(moi);
+
+// let presentation = "Bonjour, je m'appelle " + moi.prenom + " " + moi.nom + ", " + "j'ai " + moi.age + " ans."
+
+// console.log(presentation);
+
+let mesInfos = ["Nom", "Prénom", "Age", "Métier", "Nombre d'enfants"]
+
+
+mesInfos.push("Couleur préférée")
+
+mesInfos.pop()
+
+let mesTrucs = mesInfos
+
+console.log(mesTrucs);
